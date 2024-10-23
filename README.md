@@ -1,4 +1,4 @@
-# Project README
+# Java server README
 
 ## Overview
 
@@ -104,6 +104,9 @@ This project is a simple web application built using Jetty and Jersey to create 
 
 4. **Access the application**:
    - Open your browser and navigate to [http://localhost:8080](http://localhost:8080).
+   
+5. **Populate the database**: (Optional)
+   - To populate the database with test data, navigate to [http://localhost:8080/populate](http://localhost:8080/populate).
 
 ## Database
 
@@ -120,16 +123,6 @@ CREATE TABLE Games (
 );
 ```
 
-## Future Improvements
-
-- Add more detailed error handling.
-- Implement additional features like viewing game history or individual player statistics.
-- Extend database schema to support game scores or timestamps.
-
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Enjoy developing with this simple Jetty + Jersey web app!
